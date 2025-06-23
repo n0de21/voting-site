@@ -83,6 +83,10 @@ body {
   opacity: 0.2;
 }
 
+.option.leader .option-main {
+  font-weight: normal;
+}
+
 #comment-form {
   margin: 20px 0 0 28px;
   display: flex;
