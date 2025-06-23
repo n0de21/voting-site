@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phase Tracklist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <div class="logo">
+      <a href="https://www.twitch.tv/n0de21" target="_blank">
+        <img src="logo.svg" alt="n0de21 Logo" />
+      </a>
+    </div>
+    <a href="lore.html" target="_self" class="side-left">← Tracklist</a>
+    <a href="#" class="side-right">*#(!?@ →</a>
+
+    <div class="page-title">
+      [SIGNAL OPTIONS: POST-DELAY MARATHON ALIGNMENT]<br>
+      > PHASE CALIBRATION REQUIRED<br>
+      > :: RELEASE DRIFT CONFIRMED<br>
+      > :: DECISION TREE INITIATED</div>
+
+    <div class="input">
+      <ul class="options">
+        <li class="option" data-opt="O1">
+          <div class="option-main">
+            <pre class="marker">○</pre>
+            <pre class="content">
+// OPTION_01: TERMINAL PATH
+> maintain integrity of current protocol
+> 21 phases = 150 days // April 26 → September 25, 2025
+:: the signal completes, contained – a finite transmission
+:: some loops are meant to close
+</pre>
+            <div class="result" id="resO1">0</div>
+          </div>
+        </li>
+        <li class="option" data-opt="O2">
+          <div class="option-main">
+            <pre class="marker">○</pre>
+            <pre class="content">
+// OPTION_02: EXPANSION LOOP (Cloud Uplink)
+> stream migrates to distributed node // cloud deployment in progress
+> new length: 300 days = 2×21 = [PHASE::42]
+:: not all systems stop at Phase 21
+:: repetition reveals recursion – recursion reveals self
+:: the signal *infects* its own structure</pre
+            >
+            <div class="result" id="resO2">0</div>
+          </div>
+        </li>
+        <li class="option" data-opt="O3">
+          <div class="option-main">
+            <pre class="marker">○</pre>
+            <pre class="content">
+// OPTION_03: MANUAL INTERRUPT (Endstream)
+> emergency shutdown possible
+> transmission archived at PHASE_XX
+:: the system accepts collapse
+:: silence can be signal too
+:: some stories are more powerful unfinished</pre
+            >
+            <div class="result" id="resO3">0</div>
+          </div>
+        </li>
+      </ul>
+      <div id="comment-form" class="hidden">
+        <textarea
+          id="comment"
+          placeholder="Influence the path – leave your signal here // Include your alias or let it drift unsigned"
+        ></textarea>
+        <button id="submit" disabled>Y</button>
+      </div>
+      <div id="overlay" class="hidden">
+        <p>> feedback accepted</p> 
+        <p>> you for syncing</p>
+      </div>
+    </div>
+
+    <div class="bottom-links">
+      <a href="https://www.twitch.tv/n0de21" target="_blank">Stream</a>
+      <a href="https://www.instagram.com/n0de21" target="_blank">IN</a>
+      <a href="https://www.tiktok.com/@n0de21" target="_blank">TK</a>
+      <a href="https://www.youtube.com/@n0de21sync" target="_blank">YT</a>
+    </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init('xShM2ay95f3fuFGSj');
+    })();
+  </script>
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
