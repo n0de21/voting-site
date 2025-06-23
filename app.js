@@ -67,7 +67,7 @@ submitBtn.addEventListener('click', () => {
     .then(snap => {
       const d = snap.val() || {O1:0,O2:0,O3:0};
       return emailjs.send(
-        'service_5ajeulj',   
+        'service_zpg3yeo',   
         'template_cr4709n',  
         {
           counts: `O1=${d.O1}, O2=${d.O2}, O3=${d.O3}`,
