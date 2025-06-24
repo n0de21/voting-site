@@ -56,6 +56,11 @@ commentInput.addEventListener('input', () => {
 
 
 submitBtn.addEventListener('click', () => {
+
+  if (submitBtn.disabled) return;
+  submitBtn.disabled = true;             
+  commentInput.disabled = true;          
+
   const comment = commentInput.value.trim();
   if (!selectedOpt || !comment) return;
 
@@ -82,6 +87,6 @@ submitBtn.addEventListener('click', () => {
     })
     .catch(err => {
       console.error('EmailJS error:', err);
-      alert('Не удалось отправить письмо.');
+      alert('[Letter query timeout... = Try again]');
     });
 });
