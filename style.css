@@ -171,12 +171,14 @@ body {
   position: absolute;
   padding: 20px;
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-nav a {
   text-decoration: none;
   font-size: 18px;
-  line-height: 1;
+  line-height: 24px;
   letter-spacing: -0.1px;
   opacity: 0.6;
   width: auto;
