@@ -214,43 +214,6 @@ body {
   margin-top: 40px;
 }
 
-.side-left {
-  grid-row: 2;
-  grid-column: 1 / 2;
-  position: fixed;
-  align-self: center;
-  justify-self: start;
-  font-size: 18px;
-  padding: 20px;
-  color: rgba(0, 0, 0, 0.6);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.2s ease;
-}
-
-.side-left:hover {
-  color: rgba(0, 0, 0, 1);
-}
-
-.side-right {
-  grid-row: 2;
-  grid-column: 12 / 13;
-  position: fixed;
-  align-self: center;
-  justify-self: end;
-  font-size: 18px;
-  padding: 20px;
-  color: rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.2s ease;
-  pointer-events: none;
-}
-
-.side-right:hover {
-  color: rgba(0, 0, 0, 0.1);
-}
-
 .button-container {
   grid-row: 2;
   grid-column: 4 / 10;
