@@ -169,10 +169,9 @@ body {
 }
 
 .header-nav {
-  grid-row: 2;
-  grid-column: 1 / 2;
+  position: absolute;
   padding: 20px;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 .header-nav a {

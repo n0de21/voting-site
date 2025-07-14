@@ -21,8 +21,6 @@
       <a href="/artifacts.html" data-name="Artifacts">└ Artifacts</a><br>
       <a href="/placeholder.html" data-name="Placeholder">└ Placeholder</a><br>
     </nav>
-    <a href="https://n0de21.github.io/pv/tracklist.html" target="_self" class="side-left">← Tracklist</a>
-    <a href="#" class="side-right">*#(!?@ →</a>
 
     <div class="page-title">
       [SIGNAL OPTIONS]<br>
@@ -97,6 +95,21 @@
       <a href="https://www.tiktok.com/@n0de21" target="_blank">TK</a>
       <a href="https://www.youtube.com/@n0de21sync" target="_blank">YT</a>
     </div>
+  <script>
+        document.addEventListener("DOMContentLoaded", () => {
+    const nav = document.querySelector(".header-nav");
+    if (!nav) return;
+  
+    const page = nav.getAttribute("data-page");
+    const links = nav.querySelectorAll("a");
+
+    links.forEach(link => {
+    if (link.getAttribute("data-name") === page) {
+      link.classList.add("active");
+      }
+    });
+  });
+  </script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
